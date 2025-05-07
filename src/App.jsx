@@ -3,6 +3,7 @@ import './index.css'
 
 export const App = () => {
 	return (
+		// деклоративный стиль
 		<div className="App">
 			<header className="App-header">
 				<img src={ReactLogo} className="App-logo" alt="logo" />
@@ -17,6 +18,7 @@ export const App = () => {
 				>
 					Learn React
 				</a>
+				<p>Сейчас примерно {new Date().getFullYear()} год</p>
 			</header>
 		</div>
 	)
